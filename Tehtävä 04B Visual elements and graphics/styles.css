@@ -1,0 +1,10 @@
+body {
+    background-color: aqua;
+}
+h1 {
+    border: 2px double black;
+}
+p {
+    background-color: aquamarine;
+    border-radius: 20px;
+}
