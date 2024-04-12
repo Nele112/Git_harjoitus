@@ -1,0 +1,57 @@
+header, footer {
+    background-color: rgb(91, 91, 222);
+    text-align: center;
+}
+nav {
+    background-color: rgb(99, 161, 214);
+    margin: 0;
+    padding: 1em;
+}
+section {
+    background-color: rgb(114, 186, 186);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.container {
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper > div {
+  flex: 1;
+  text-align: center;
+}
+section {
+  float: left;
+  width: 65%;
+
+  padding: 1em;
+  color: blue;
+  height: 230px;
+}
+article {
+  float: left;
+  width: 65%;
+
+  padding: 1em;
+  color: blue;
+  height: 230px;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  border-left: 1px solid gray;
+  padding: 1em;
+  color: blue;
+  height: 542px;
+}
