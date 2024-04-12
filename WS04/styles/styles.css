@@ -24,8 +24,9 @@ p{
 }
 
 div {
-    border-width: 2px;
+    border-width: 4px;
     border-style: dotted;
+    border-color: blueviolet;
 }
 
 .teksti {
@@ -44,6 +45,7 @@ ul {
 #kuva1 {
     padding-left: 50px;
     margin: 5px;
+    color: aqua;
 }
 
 #kuva2 {
