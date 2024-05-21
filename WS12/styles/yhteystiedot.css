@@ -2,44 +2,28 @@ header, footer {
     background-color: blue;
     color: white;
     text-align: center;
-    font-family: Arial, sans-serif;
-    opacity: 0.8;
 }
 
 footer {
     padding: 10px;
     margin: 0;
-    bottom: 0;
 }
 
 header {
     padding: 20px;
     margin: 0;
-    top: 0;
 }
 
-button {
-    background-color: white;
-    color: blue;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    border: none;
-    padding: 5px 10px;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
 nav {
     background-color: blue;
     padding: 10px;
-    opacity: 0.8;
     font-size: 20px;
 }
 
 .wrapper {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .wrapper div {
@@ -51,6 +35,53 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover, a:focus {
     color: black;
+}
+
+button {
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#kirjaudu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#koelaulu {
+    position: relative;  
+}
+
+body {
+    background-color:  #f5f5dc;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    }
+    
+* {
+    box-sizing: border-box;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    text-align: center;
+}
+
+#email-link {
+    color: blue;
 }

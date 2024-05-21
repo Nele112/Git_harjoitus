@@ -10,7 +10,6 @@ header, footer {
 footer {
     padding: 10px;
     margin: 0;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -55,4 +54,18 @@ a {
 
 a:hover {
     color: black;
+}
+
+body {
+    background-color: #f5f5dc;
+    margin: 0;
+}
+
+section {
+    font-size: large;
+}
+
+#video {
+    color: black;
+    text-decoration: underline;
 }

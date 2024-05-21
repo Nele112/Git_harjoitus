@@ -54,3 +54,12 @@ a:hover {
     color: black;
 }
 
+.carousel {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #f5f5dc;
+    margin: 0;
+}
