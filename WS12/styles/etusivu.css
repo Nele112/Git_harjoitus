@@ -1,35 +1,37 @@
+/* Yleiset tyylit headerille ja footerille */
 header, footer {
     background-color: blue;
     color: white;
     text-align: center;
-    font-family: Arial, sans-serif;
     opacity: 0.8;
+    margin: 0;
+    width: 100%;
 }
 
+h1 {
+    font-family: cursive;
+}
+
+/* Erityistyylit footerille */
 footer {
     padding: 10px;
-    margin: 0;
     bottom: 0;
 }
 
+/* Erityistyylit headerille */
 header {
     padding: 20px;
-    margin: 0;
     top: 0;
 }
 
-button {
-    background-color: white;
-    color: blue;
+/* Kirjaudu-painikkeen sijoittelu */
+#kirjaudu {
     position: absolute;
     top: 10px;
     right: 10px;
-    border: none;
-    padding: 5px 10px;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
 }
+
+/* Navigoinnin tyylit */
 nav {
     background-color: blue;
     padding: 10px;
@@ -37,6 +39,7 @@ nav {
     font-size: 20px;
 }
 
+/* Wrapperin tyylit */
 .wrapper {
     display: flex;
     justify-content: center;
@@ -46,6 +49,7 @@ nav {
     padding: 0 20px;
 }
 
+/* Linkkien tyylit */
 a {
     color: white;
     text-decoration: none;
@@ -54,6 +58,8 @@ a {
 a:hover {
     color: black;
 }
+
+/* Sisällön tyylit */
 .sisalto {
     display: flex;
     color: white;
@@ -63,19 +69,35 @@ a:hover {
 .left {
     flex: 2;
     padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    color: #fff;
 }
 
 .right {
     flex: 1;
     padding: 20px;
 }
+
+/* Ajankohtaista-osio */
 .ajankohtaista {
     background-color: blue;
     padding: 10px;
-    border: 1px solid blue;
+    border-radius: 5px;
     opacity: 0.6;
 }
 
+.ajankohtaista h3 {
+    text-decoration: underline;
+}
+
+.ajankohtaista li {
+    padding: 5px;
+    list-style-type: disc;
+
+}
+
+/* Taustakuva */
 body {
 background-image: url("taust.jpg");
 background-size: cover;
@@ -83,5 +105,6 @@ background-attachment: fixed;
 background-position: center center;
 margin: 0;
 padding: 0;
+font-family: Arial, sans-serif;
 }
 

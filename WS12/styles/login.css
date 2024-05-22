@@ -1,0 +1,12 @@
+/* login tyylit */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #f5f5dc;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    box-shadow: 0 0 2em 0.5em #ccc;
+    
+}
+

@@ -1,34 +1,36 @@
+/* Yleiset tyylit headerille ja footerille */
 header, footer {
     background-color: blue;
     color: white;
     text-align: center;
-    font-family: Arial, sans-serif;
     opacity: 0.8;
+    margin: 0;   
 }
 
+h1 {
+    font-family: cursive;
+}
+
+/* Erityistyylit headerille */
 header {
     padding: 20px;
+    top: 0;
 }
 
+/* Erityistyylit footerille */
 footer {
     padding: 10px;
-    margin: 0;
     bottom: 0;
 }
 
-button {
-    background-color: white;
-    color: blue;
+/* Kirjaudu-painikkeen sijoittelu */
+#kirjaudu {
     position: absolute;
     top: 10px;
     right: 10px;
-    border: none;
-    padding: 5px 10px;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
 }
 
+/* Navigoinnin tyylit */
 nav {
     background-color: blue;
     padding: 10px;
@@ -36,6 +38,7 @@ nav {
     font-size: 20px;
 }
 
+/* Wrapperin tyylit */
 .wrapper {
     display: flex;
     justify-content: center;
@@ -45,6 +48,7 @@ nav {
     padding: 0 20px;
 }
 
+/* Linkkien tyylit */
 a {
     color: white;
     text-decoration: none;
@@ -54,12 +58,46 @@ a:hover {
     color: black;
 }
 
+/* kuvakarusellin tyyli */
 .carousel {
     max-width: 600px;
     margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
+/* kuvatekstien ulkoasu */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+}
+
+/* Tausta tyylit */
 body {
     background-color: #f5f5dc;
     margin: 0;
+    font-family: Arial, sans-serif;
 }
+
+/* Sisällön tyylit */
+p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Videoita esittävän kortin tyyli */
+.video-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Hiiren ollessa kortin päällä, kortti nousee ylöspäin */
+.video-card:hover {
+    transform: translateY(-5px);
+}
+

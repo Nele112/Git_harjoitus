@@ -1,36 +1,36 @@
+/* Yleiset tyylit headerille ja footerille */
 header, footer {
     background-color: blue;
     color: white;
     text-align: center;
-    font-family: Arial, sans-serif;
     opacity: 0.8; 
     width: 100%;
+    margin: 0;
 }
 
+h1 {
+    font-family: cursive;
+}
+
+/* Erityistyylit footerille */
 footer {
     padding: 10px;
-    margin: 0;
     bottom: 0;
-    width: 100%;
 }
 
+/* Erityistyylit headerille */
 header {
     padding: 20px;
-    margin: 0;
 }
 
-button {
-    background-color: white;
-    color: blue;
+/* Kirjaudu-painikkeen sijoittelu */
+#kirjaudu {
     position: absolute;
     top: 10px;
     right: 10px;
-    border: none;
-    padding: 5px 10px;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
 }
+
+/* Navigoinnin tyylit */
 nav {
     background-color: blue;
     padding: 10px;
@@ -38,6 +38,7 @@ nav {
     font-size: 20px;
 }
 
+/* Wrapperin tyylit */
 .wrapper {
     display: flex;
     justify-content: center;
@@ -47,6 +48,7 @@ nav {
     padding: 0 20px;
 }
 
+/* Linkkien tyylit */
 a {
     color: white;
     text-decoration: none;
@@ -56,16 +58,43 @@ a:hover {
     color: black;
 }
 
+/* Tausta tyylit */
 body {
     background-color: #f5f5dc;
     margin: 0;
-}
-
-section {
-    font-size: large;
-}
-
-#video {
+    font-family: Arial, sans-serif;
     color: black;
+}
+
+/* Sisällön tyylit */
+.sisalto {
+    display: flex;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.left {
+    flex: 1;
+    padding: 20px;
+}
+
+.right {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Tapahtumien tyylit */
+.tapahtumat {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    opacity: 0.6;
+    border-radius: 5px;
+}
+.tapahtumat h3 {
     text-decoration: underline;
+}
+
+.tapahtumat li {
+    list-style-type: circle;
+    padding: 5px;
 }
