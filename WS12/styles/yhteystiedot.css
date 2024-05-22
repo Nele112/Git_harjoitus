@@ -1,0 +1,94 @@
+/* Yleiset tyylit headerille ja footerille */
+header, footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    opacity: 0.8; 
+    margin: 0;
+}
+
+h1 {
+    font-family: cursive;
+}
+
+/* Erityistyylit footerille */
+footer {
+    padding: 10px;
+    bottom: 0;
+}
+
+/* Erityistyylit headerille */
+header {
+    padding: 20px;
+    top: 0;
+}
+
+/* Navigoinnin tyylit */
+nav {
+    background-color: blue;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Wrapperin tyylit */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrapper div {
+    padding: 0 20px;
+}
+
+/* Linkkien tyylit */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: black;
+}
+
+/* Kirjaudu-painikkeen sijoittelu */
+#kirjaudu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Registöidy-painikkeen sijoittelu */
+#koelaulu {
+    position: relative;  
+}
+
+/* Tausta tyylit */
+body {
+    background-color:  #f5f5dc;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    }
+    
+* {
+    box-sizing: border-box;
+}
+
+/* Sisällön tyylit */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    text-align: center;
+}
+
+/* Email-linkin tyylit */
+#email-link {
+    color: blue;
+}
